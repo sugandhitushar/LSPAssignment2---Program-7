@@ -1,0 +1,2 @@
+Capital letters in hello.txt are 2.
+Capital letters in demo.txt are 3.

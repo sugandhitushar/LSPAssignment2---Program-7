@@ -1,0 +1,20 @@
+NAME - program.c
+
+USAGE - 
+$ make
+$ make run
+
+DESCRIPTION - 
+Counts the number of capital letters in hello.txt and demo.txt and writes the count in count.txt.
+
+Example -
+$ make
+gcc -c program.c
+gcc -o fileWrite program.o
+
+$ make run
+./fileWrite
+
+$ cat count.txt 
+Capital letters in hello.txt are 2.
+Capital letters in demo.txt are 3.
